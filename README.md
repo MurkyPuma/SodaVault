@@ -1,7 +1,7 @@
 ## Cocktail Crafter
 Cocktail Crafter is currently a user interface to access a local SQL database of 500+ drinks. Images are generated on demand with OpenAI's API if none are available. The program currently handles user accounts, allowing users to add their own drinks. The goal of this project is to send instructions to a machine to create each drink based on user's bar/ingredients.
 
-Languages: Python, HTML, CSS, JavaScript
+Languages: Python, HTML, CSS, JavaScript, C++ for CSV -> SQL Parsing
 ## Private Repository
 ![image](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/16c6ac52-31ee-4589-8c5e-e266bd012774)
 ## UI 02/22
