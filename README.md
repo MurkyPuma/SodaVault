@@ -3,7 +3,7 @@ Cocktail Crafter is an ongoing project for a drink making machine. The purpose o
 
 The upcoming phases involve developing a mobile application for the app store using React Native for the frontend interface. I also plan to establish a server-client connection with an ESP32 to recieve data and create drinks in the near future.
 
-Technologies employed include Django, PostgreSQL, HTML, CSS, JavaScript, Axios, and C++ for the initial parsing of CSV files to SQL.
+Technologies used include Django, PostgreSQL, HTML, CSS, JavaScript, Axios, and C++ for the initial parsing of CSV files to SQL.
 ## Private Repository
 ![IMG_6264](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/15d9b212-1f21-4dc1-a6d0-fab2db89a3b1)
 I am activly working on a private repository to protect API keys. 
