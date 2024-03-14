@@ -1,9 +1,10 @@
 ## Cocktail Crafter
-Cocktail Crafter is currently a user interface to access a local SQL database of 2,700+ drinks. Images are generated on demand with OpenAI's API if none are available. The program currently handles user accounts, allowing users to add their own drinks. The goal of this project is to send instructions to a machine and create drinks based on user's bar/ingredients.
+Cocktail Crafter is an ongoing project for a drink making machine. The Purpose of this website is to allow users to interface with a local PostgreSQL server containing 2,700+ drinks. Images are generated and saved on demand with OpenAI's API. The program currently handles user accounts, allowing users to add their own drinks to the database. Users can also search by name or single ingredient. Results are displayed quickly with the use of progressive JPEG images and infinite scrolling, meaning only x amount of results are fetched from the server until more are called while scrolling. The goal of this project is to send instructions to a machine and create drinks based on user's bar/ingredients. API is tested for functionality using Postman.
 
-Technology: Django Python, PostgreSQL, HTML, CSS, JavaScript, C++ for initial CSV to SQL Parsing
+Technology used: Django, PostgreSQL, HTML, CSS, JavaScript, C++ for initial CSV to SQL Parsing.
 ## Private Repository
 ![IMG_6264](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/15d9b212-1f21-4dc1-a6d0-fab2db89a3b1)
+I am activly working on a private repository to protect API keys. 
 ## UI 02/22
 ![image](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/61776365-49c1-4fcb-9d93-315727dfb635)
 ![306352207-3f7539d4-2c15-4cb0-8065-b03ad6993ac7](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/cdbfc04d-5cf7-41d2-960b-db14b81402bb)
