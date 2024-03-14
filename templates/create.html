@@ -1,0 +1,44 @@
+{% extends 'baseLayout.html' %}
+{% load static %}
+
+{% block head %}
+  <title>Create a New Drink</title>
+{% endblock %}
+
+{% block content %}
+  <div class="drink-detail-container">
+    <h2>Create Your Own Drink</h2>
+    <form class="form" action="{% url 'create' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="drink-info">
+        <label for="name">Drink Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter drink name" required />
+      </div>
+      <div class="drink-detail-image">
+        <label for="thumbnail">Drink Image:</label>
+        <input type="file" id="thumbnail" name="thumbnail" accept="image/*" />
+      </div>
+      <div class="drink-info">
+        <label for="alcoholic">Is it alcoholic?</label>
+        <select id="alcoholic" name="alcoholic" required>
+          <option value="Alcoholic">Alcoholic</option>
+          <option value="Non alcoholic">Non Alcoholic</option>
+        </select>
+        <div class="glass-type">
+          <label for="glass">Glass Type:</label>
+          <input type="text" id="glass" name="glass" placeholder="Enter glass type" required />
+        </div>
+        <div class="instructions">
+          <label for="instructions">Instructions:</label>
+          <textarea id="instructions" name="instructions" rows="4" placeholder="Enter preparation instructions" required></textarea>
+        </div>
+      </div>
+
+      <!-- Add input fields for ingredients and measurements as needed -->
+
+      <div class="form-group">
+        <button type="submit" class="button">Create Drink</button>
+      </div>
+    </form>
+  </div>
+{% endblock %}

@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mocktails</title>
+</head>
+<body>
+    <h1>Mocktails</h1>
+        <div class="drinks">
+
+        {% for drinks in drinks %}
+            <div class="drinks">
+                <h2><a href="#">{{ drinks.name }}</a></h2>
+                <p>{{ drinks.description }}</p>
+        {% endfor %}
+        </div>
+</body>
+</html>

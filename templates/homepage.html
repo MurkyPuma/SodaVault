@@ -1,0 +1,33 @@
+{% extends 'baseLayout.html' %}
+{% load static %}
+
+{% block head %}
+  <title>Homepage</title>
+{% endblock %}
+
+{% block content %}
+  <div class="center-vertical">
+    <h1>Get drink recommendations!</h1>
+
+    <form action="query.html" method="get" class="search-bar">
+      <input type="text" name="search" placeholder="What type of drink are you feeling..." />
+      <button type="submit"><img src="{% static 'search.png' %}" alt="Search" /></button>
+    </form>
+
+    <div class="image-container">
+      <div>
+        <a href="/drinks">
+          <img src="{% static 'cocktail.png' %}" alt="Cocktails" class="round-image" />
+          <p>Cocktails</p>
+        </a>
+      </div>
+
+      <div>
+        <a href="/mocktails">
+          <img src="{% static 'mocktail.png' %}" alt="Mocktails" class="round-image" />
+          <p>Mocktails</p>
+        </a>
+      </div>
+    </div>
+  </div>
+{% endblock %}

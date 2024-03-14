@@ -1,0 +1,24 @@
+{% extends 'baseLayout.html' %}
+{% load static %}
+
+{% block head %}
+  <title>Cocktails</title>
+{% endblock %}
+
+{% block content %}
+  <h1>Cocktails</h1>
+
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search..." />
+  </div>
+
+  <div class="filter-options">
+    <label for="filter-name">Search by:</label>
+    <input type="radio" id="filter-name" name="filter" value="name" checked />
+    <label for="filter-name">Name</label>
+    <input type="radio" id="filter-ingredient" name="filter" value="ingredient" />
+    <label for="filter-ingredient">Ingredient</label>
+  </div>
+
+  <div id="random-results" class="drinks-grid"></div>
+{% endblock %}

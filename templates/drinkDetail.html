@@ -1,0 +1,72 @@
+{% extends 'baseLayout.html' %}
+{% load static %}
+
+{% block head %}
+  <title>{{ drink.name }}</title>
+{% endblock %}
+
+{% block content %}
+  <div class="drink-detail-container">
+    <h3 class="drink-detail-title">Drink Detail</h3>
+    <div class="drink-detail-image">
+      {% if drink.thumbnail %}
+        <img src="{{ drink.thumbnail.url }}" alt="{{ drink.name }}" />
+      {% endif %}
+    </div>
+    <div class="drink-detail-name">{{ drink.name }}</div>
+
+    <div class="drink-info">
+      <div id="like-container">
+        {% if drink.alcoholic == 'Alcoholic' %}
+          <div class="alcoholic-indicator">Alcoholic</div>
+        {% endif %}
+        {% if drink.alcoholic == 'Non alcoholic' %}
+          <div class="non-alcoholic-indicator">Non Alcoholic</div>
+        {% endif %}
+        <div id="drink-details"></div>
+        <button id="like-button" class="like-button" data-drink-id="{{ drink.id }}">
+          <span class="heart-icon"></span>
+          <span class="like-text">Like</span>
+        </button>
+      </div>
+
+      <div class="glass-type">Glass: {{ drink.glass }}</div>
+      <div class="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          {% if drink.ingredient1 and drink.measurement1 %}
+            <li>{{ drink.ingredient1 }} {{ drink.measurement1 }}</li>
+          {% endif %}
+          {% if drink.ingredient2 and drink.measurement2 %}
+            <li>{{ drink.ingredient2 }} {{ drink.measurement2 }}</li>
+          {% endif %}
+          {% if drink.ingredient3 and drink.measurement3 %}
+            <li>{{ drink.ingredient3 }} {{ drink.measurement3 }}</li>
+          {% endif %}
+          {% if drink.ingredient4 and drink.measurement4 %}
+            <li>{{ drink.ingredient4 }} {{ drink.measurement4 }}</li>
+          {% endif %}
+          {% if drink.ingredient5 and drink.measurement5 %}
+            <li>{{ drink.ingredient5 }} {{ drink.measurement5 }}</li>
+          {% endif %}
+          {% if drink.ingredient6 and drink.measurement6 %}
+            <li>{{ drink.ingredient6 }} {{ drink.measurement6 }}</li>
+          {% endif %}
+          {% if drink.ingredient7 and drink.measurement7 %}
+            <li>{{ drink.ingredient7 }} {{ drink.measurement7 }}</li>
+          {% endif %}
+          {% if drink.ingredient8 and drink.measurement8 %}
+            <li>{{ drink.ingredient8 }} {{ drink.measurement8 }}</li>
+          {% endif %}
+          {% if drink.ingredient9 and drink.measurement9 %}
+            <li>{{ drink.ingredient9 }} {{ drink.measurement9 }}</li>
+          {% endif %}
+        </ul>
+      </div>
+      <div class="instructions">
+        <h3>Instructions</h3>
+        <p>{{ drink.instructions }}</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}
