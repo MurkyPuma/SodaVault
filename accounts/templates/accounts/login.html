@@ -1,0 +1,30 @@
+{% extends 'baseLayout.html' %}
+{% load static %}
+
+{% block head %}
+  <title>Login</title>
+{% endblock %}
+
+{% block content %}
+  <div class="authentication-container">
+    <div class="authentication-form">
+      <h1>Login</h1>
+      <form action="{% url 'accounts:login' %}" method="post">
+        {% csrf_token %}
+        {% for field in form %}
+          <div class="form-field">
+            <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+            {{ field }}
+            {% for error in field.errors %}
+              <div class="error">{{ error }}</div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+        {% if request.GET.next %}
+          <input type="hidden" name="next" value="{{ request.GET.next }}" />
+        {% endif %}
+        <input type="submit" value="Login" class="submit-button" />
+      </form>
+    </div>
+  </div>
+{% endblock %}
