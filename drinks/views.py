@@ -11,7 +11,6 @@ from django.contrib.auth.decorators import login_required
 from . import forms
 import requests
 from django.conf import settings
-
 from django.core.files.base import ContentFile
 import uuid
 import random
@@ -73,7 +72,7 @@ def homepage(request):
 @api_view(["GET"])
 def random_drinks(request):  # API function to get random drinks
     random = Drink.objects.order_by('?')
-    limit = int(request.GET.get("limit", "")) # get the limit parameter from the request, default to 10
+    limit = int(request.GET.get("limit", "")) # get the limit parameter from the request, no default
     start = int(request.GET.get("start", ""))
     queryset = random[start:start + limit]
     serializer = DrinkSerializer(queryset, many=True)
