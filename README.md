@@ -7,7 +7,7 @@ Technologies used include Django, PostgreSQL, HTML, CSS, JavaScript, Axios, and 
 ## Private Repository
 ![IMG_6264](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/15d9b212-1f21-4dc1-a6d0-fab2db89a3b1)
 
-I am activly working on a private repository to protect API keys. 
+I am actively working on a private repository to protect API keys. 
 ## UI 03/14
 ![image](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/61776365-49c1-4fcb-9d93-315727dfb635)
 ![306352207-3f7539d4-2c15-4cb0-8065-b03ad6993ac7](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/cdbfc04d-5cf7-41d2-960b-db14b81402bb)
