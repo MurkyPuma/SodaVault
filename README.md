@@ -44,8 +44,14 @@ I am actively working on a private repository to ensure that sensitive project d
 <img width="1508" alt="image" src="https://github.com/user-attachments/assets/9839e4d0-2f54-4ae1-8bdc-b1235084149f">
 The app is currently under review by Apple for release on the App Store. This review process is an essential step to ensure that the application meets Apple’s quality and safety standards. During this time, the app is evaluated for its functionality, user experience, and adherence to guidelines, which can take several days. I’m looking forward to receiving feedback and hopefully getting the green light for launch, so users can start enjoying the features and functionality I’ve worked hard to develop.
 
-![Apple iPhone 14 Pro Screenshot 0](https://github.com/user-attachments/assets/72bba6d4-8a4b-4ff3-b945-7aa7c578618f)![Apple iPhone 14 Pro Screenshot 1](https://github.com/user-attachments/assets/cd171109-dce4-4051-b8e6-1f87931354fa)![Apple iPhone 14 Pro Screenshot 2](https://github.com/user-attachments/assets/6e303791-d830-4439-914d-7fc29b714c38)![Apple iPhone 14 Pro Screenshot 3](https://github.com/user-attachments/assets/1c5d9509-22dc-4c98-bfde-2ee51a6b7632)![Apple iPhone 14 Pro Screenshot 4](https://github.com/user-attachments/assets/0d4a8fc9-be17-4efd-9622-54c2a7448609)![Apple iPhone 14 Pro Screenshot 5](https://github.com/user-attachments/assets/a03d3518-dd12-4e92-8109-0dc652cca519)
-
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/72bba6d4-8a4b-4ff3-b945-7aa7c578618f" width="30%" />
+  <img src="https://github.com/user-attachments/assets/cd171109-dce4-4051-b8e6-1f87931354fa" width="30%" />
+  <img src="https://github.com/user-attachments/assets/6e303791-d830-4439-914d-7fc29b714c38" width="30%" />
+  <img src="https://github.com/user-attachments/assets/1c5d9509-22dc-4c98-bfde-2ee51a6b7632" width="30%" />
+  <img src="https://github.com/user-attachments/assets/0d4a8fc9-be17-4efd-9622-54c2a7448609" width="30%" />
+  <img src="https://github.com/user-attachments/assets/a03d3518-dd12-4e92-8109-0dc652cca519" width="30%" />
+</div>
 
 ## 03/14 Update
 Cocktail Crafter is an ongoing project for a drink making machine. The purpose of this website is to allow users to interface with a local PostgreSQL server containing 2,700+ drinks. Images are generated and saved on demand with OpenAI's API. The program currently handles user accounts, allowing users to add their own drinks to the database. Users are also able to search asynchronously by name or single ingredient. Results are displayed quickly with the use of progressive JPEG images and infinite scrolling, meaning only x amount of results are fetched from the server until more are called while scrolling. The goal of this project is to send instructions to a machine and create drinks based on user's bar/ingredients. The RESTful API's functionality is verified through Postman testing. Axios is used to manage API requests, adhering to CRUD principles.
