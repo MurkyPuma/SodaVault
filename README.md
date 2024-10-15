@@ -42,10 +42,10 @@ I am actively working on a private repository to ensure that sensitive project d
 
 ## 10/14 Update
 <img width="1508" alt="image" src="https://github.com/user-attachments/assets/9839e4d0-2f54-4ae1-8bdc-b1235084149f">
-The app is currently under review by Apple for release on the App Store. This review process is an essential step to ensure that the application meets Apple’s quality and safety standards. During this time, the app is evaluated for its functionality, user experience, and adherence to guidelines, which can take several days. I’m looking forward to receiving feedback and hopefully getting the green light for launch, so users can start enjoying the features and functionality I’ve worked hard to develop.\n
+The app is currently under review by Apple for release on the App Store. This review process is an essential step to ensure that the application meets Apple’s quality and safety standards. During this time, the app is evaluated for its functionality, user experience, and adherence to guidelines, which can take several days. I’m looking forward to receiving feedback and hopefully getting the green light for launch, so users can start enjoying the features and functionality I’ve worked hard to develop.
 
 
-<div style="display: flex; justify-content: center; flex-wrap: wrap; margin: 0 auto;">
+<div style="display: flex; justify-content: center; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: 0 auto;">
   <img src="https://github.com/user-attachments/assets/72bba6d4-8a4b-4ff3-b945-7aa7c578618f" width="15%" />
   <img src="https://github.com/user-attachments/assets/cd171109-dce4-4051-b8e6-1f87931354fa" width="15%" />
   <img src="https://github.com/user-attachments/assets/6e303791-d830-4439-914d-7fc29b714c38" width="15%" />
