@@ -36,14 +36,22 @@ Soda Vault is a full-stack development project designed to give users instant ac
 
 ## Active Repositories
 
-![IMG_6264](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/15d9b212-1f21-4dc1-a6d0-fab2db89a3b1)
-
 I am actively working on a private repository to ensure that sensitive project details such as database backups, proprietary code, and experimental features remain confidential during development. This approach allows for a controlled environment where I can iterate and refine the application without exposing unfinished work to the public.
+Front-end:
+<img width="1509" alt="image" src="https://github.com/user-attachments/assets/5063a3d7-5f68-4d60-a456-e3878014fc58">
+<img width="1505" alt="image" src="https://github.com/user-attachments/assets/d3210eb4-648e-4587-8c47-848b91919185">
+
+
+Back-end:
+<img width="1507" alt="image" src="https://github.com/user-attachments/assets/07f1760c-74b9-4f47-aeae-c1acd31e9b75">
+<img width="1506" alt="image" src="https://github.com/user-attachments/assets/a6cd74c9-8456-437f-aa67-d7c41679de07">
+
+
 
 ## 10/14 Update
-<img width="1508" alt="image" src="https://github.com/user-attachments/assets/9839e4d0-2f54-4ae1-8bdc-b1235084149f">
 The app is currently under review by Apple for release on the App Store. This review process is an essential step to ensure that the application meets Apple’s quality and safety standards. During this time, the app is evaluated for its functionality, user experience, and adherence to guidelines, which can take several days. I’m looking forward to receiving feedback and hopefully getting the green light for launch, so users can start enjoying the features and functionality I’ve worked hard to develop.
 
+<img width="1508" alt="image" src="https://github.com/user-attachments/assets/9839e4d0-2f54-4ae1-8bdc-b1235084149f">
 
 <div style="gap: 0.33%; ">
   <img src="https://github.com/user-attachments/assets/72bba6d4-8a4b-4ff3-b945-7aa7c578618f" width="33%" />
