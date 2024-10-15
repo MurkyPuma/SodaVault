@@ -34,19 +34,7 @@ Soda Vault is a full-stack development project designed to give users instant ac
 ## Future Plans
 - **ESP32 Integration:** Planning to establish server-client connections with an ESP32 microcontroller for automating drink creation based on users' available ingredients.
 
-## Active Repositories
 
-I am actively working on a private repository to ensure that sensitive project details such as database backups, proprietary code, and experimental features remain confidential during development. This approach allows for a controlled environment where I can iterate and refine the application without exposing unfinished work to the public.
-**Front-end:
-**
-<img width="1509" alt="image" src="https://github.com/user-attachments/assets/5063a3d7-5f68-4d60-a456-e3878014fc58">
-<img width="1505" alt="image" src="https://github.com/user-attachments/assets/d3210eb4-648e-4587-8c47-848b91919185">
-
-
-**Back-end:
-**
-<img width="1507" alt="image" src="https://github.com/user-attachments/assets/07f1760c-74b9-4f47-aeae-c1acd31e9b75">
-<img width="1506" alt="image" src="https://github.com/user-attachments/assets/a6cd74c9-8456-437f-aa67-d7c41679de07">
 
 
 
@@ -75,3 +63,15 @@ Technologies used include Django, PostgreSQL, HTML, CSS, JavaScript, Axios, and 
 ![306352207-3f7539d4-2c15-4cb0-8065-b03ad6993ac7](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/cdbfc04d-5cf7-41d2-960b-db14b81402bb)
 ![306352503-920c99d6-806f-4914-ab48-9c8cba59f4b7](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/15012789-2fe6-48c5-8996-d7a1ceb1f243)
 ![306352937-cbdcee58-9c40-4dbe-b4be-61eac0a2b999](https://github.com/MurkyPuma/CocktailCrafterDemo/assets/74885743/b45b0e71-c4b2-415e-8e8f-c0bd2e38efd7)
+
+## Active Repositories
+
+I am actively working on a private repository to ensure that sensitive project details such as database backups, proprietary code, and experimental features remain confidential during development. This approach allows for a controlled environment where I can iterate and refine the application without exposing unfinished work to the public.
+**Front-end:**
+<img width="1509" alt="image" src="https://github.com/user-attachments/assets/5063a3d7-5f68-4d60-a456-e3878014fc58">
+<img width="1505" alt="image" src="https://github.com/user-attachments/assets/d3210eb4-648e-4587-8c47-848b91919185">
+
+
+**Back-end:**
+<img width="1507" alt="image" src="https://github.com/user-attachments/assets/07f1760c-74b9-4f47-aeae-c1acd31e9b75">
+<img width="1506" alt="image" src="https://github.com/user-attachments/assets/a6cd74c9-8456-437f-aa67-d7c41679de07">
