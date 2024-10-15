@@ -66,12 +66,14 @@ Technologies used include Django, PostgreSQL, HTML, CSS, JavaScript, Axios, and 
 
 ## Active Repositories
 
-I am actively working on a private repository to ensure that sensitive project details such as database backups, proprietary code, and experimental features remain confidential during development. This approach allows for a controlled environment where I can iterate and refine the application without exposing unfinished work to the public.
-**Front-end:**
+  <p>
+    I am actively working on a private repository to ensure that sensitive project details such as database backups, proprietary code, and experimental features remain confidential during development. This approach allows for a controlled environment where I can iterate and refine the application without exposing unfinished work to the public.
+  </p>
+  <strong>Front-end:</strong>
 <img width="1509" alt="image" src="https://github.com/user-attachments/assets/5063a3d7-5f68-4d60-a456-e3878014fc58">
 <img width="1505" alt="image" src="https://github.com/user-attachments/assets/d3210eb4-648e-4587-8c47-848b91919185">
 
 
-**Back-end:**
+  <strong>Back-end:</strong>
 <img width="1507" alt="image" src="https://github.com/user-attachments/assets/07f1760c-74b9-4f47-aeae-c1acd31e9b75">
 <img width="1506" alt="image" src="https://github.com/user-attachments/assets/a6cd74c9-8456-437f-aa67-d7c41679de07">
