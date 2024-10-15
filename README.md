@@ -44,12 +44,12 @@ The app is currently under review by Apple for release on the App Store. This re
 <img width="1508" alt="image" src="https://github.com/user-attachments/assets/9839e4d0-2f54-4ae1-8bdc-b1235084149f">
 
 <div style="gap: 0.33%; ">
-  <img src="https://github.com/user-attachments/assets/72bba6d4-8a4b-4ff3-b945-7aa7c578618f" width="33%" />
-  <img src="https://github.com/user-attachments/assets/cd171109-dce4-4051-b8e6-1f87931354fa" width="33%" />
-  <img src="https://github.com/user-attachments/assets/6e303791-d830-4439-914d-7fc29b714c38" width="33%" />
-  <img src="https://github.com/user-attachments/assets/1c5d9509-22dc-4c98-bfde-2ee51a6b7632" width="33%" />
-  <img src="https://github.com/user-attachments/assets/0d4a8fc9-be17-4efd-9622-54c2a7448609" width="33%" />
-  <img src="https://github.com/user-attachments/assets/a03d3518-dd12-4e92-8109-0dc652cca519" width="33%" />
+  <img src="https://github.com/user-attachments/assets/72bba6d4-8a4b-4ff3-b945-7aa7c578618f" width="32%" />
+  <img src="https://github.com/user-attachments/assets/cd171109-dce4-4051-b8e6-1f87931354fa" width="32%" />
+  <img src="https://github.com/user-attachments/assets/6e303791-d830-4439-914d-7fc29b714c38" width="32%" />
+  <img src="https://github.com/user-attachments/assets/1c5d9509-22dc-4c98-bfde-2ee51a6b7632" width="32%" />
+  <img src="https://github.com/user-attachments/assets/0d4a8fc9-be17-4efd-9622-54c2a7448609" width="32%" />
+  <img src="https://github.com/user-attachments/assets/a03d3518-dd12-4e92-8109-0dc652cca519" width="32%" />
 </div>
 
 ## 03/14 Update
