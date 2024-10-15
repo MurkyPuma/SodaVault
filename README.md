@@ -1,4 +1,4 @@
-# Soda Vault – Full Stack Development Project
+# Soda Vault
 Soda Vault is a full-stack development project designed to give users instant access to a comprehensive drink recipe database, featuring over 16,000 drink recipes. The project leverages modern mobile and backend technologies to provide seamless user experiences, efficient data handling, and cost-effective image generation solutions.
 
 ## Features
