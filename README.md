@@ -1,8 +1,10 @@
 # Soda Vault
 Soda Vault is a full-stack development project designed to give users instant access to a comprehensive drink recipe database, featuring over 16,000 drink recipes. The project leverages modern mobile and backend technologies to provide seamless user experiences, efficient data handling, and cost-effective image generation solutions.
+
 <p>
 <strong>Now Availaible to Download on the Apple App Store!</strong> https://apps.apple.com/ca/app/soda-vault/id6736888153
 </p>
+
 ## Features
 - **Mobile Application (React Native managed by Expo):**
   - Provides users with instant access to a database of 16,000+ drink recipes.
